@@ -1,7 +1,8 @@
 pipeline {
   agent any
   tools { 
-        maven 'Maven'
+    jdk 'java'    
+    maven 'Maven'
   }
   environment {
         EUREKA_IPADDRESS = ""
